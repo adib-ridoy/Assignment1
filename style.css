@@ -1,0 +1,150 @@
+*{
+    text-decoration: none;
+}
+
+body{
+    background-color: #9ECFD4;
+    font-family: "Libre Baskerville";
+}
+.navbar{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 15px;
+      background: #016B61; 
+    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-logo{
+    width: 50px;
+}
+.logo a{
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 600px;
+    color: #E5E9C5;
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+li a{
+    font-size: x-large;
+    font-style: oblique;
+    color: #E5E9C5;
+    margin: 10px;
+}
+
+/* Navigation Bar Done. */
+/*index starts here*/
+.box {
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px rgb(97, 113, 25);
+    text-align: center;
+}
+
+.first{
+    margin-top: 150px;
+}
+.waving_duck{
+    float: left;
+    height: 150px;
+}
+.dance_robot{
+    float: right;
+    height: 150px;
+}
+h1{
+    margin-top: 150px;
+
+}
+h2{
+    color: #016B61;
+}
+h3{
+    color: #016B61;
+}
+.box ul{
+    text-align: left;
+}
+.reading_books{
+    float: right;
+    width: 150px;
+}
+.travelling_duck{
+    float: right;
+    width: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #2477cb;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: rgb(82, 94, 94);
+    color: white;
+}
+td img{
+    width: 200px;
+}
+.my-button {
+    background-color: #016B61; 
+    color: #E5E9C5;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.my-button a{
+    color: #E5E9C5;
+}
+
+.my-button:hover {
+background-color: #409572; 
+}
+
+/*profile starts here*/
+.profile_div{
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    float: right;
+    font-size: larger;
+}
+.profile_pic{
+    height: 300px;
+    float: left;
+    margin-top: -5%;
+    border-radius: 40%;
+    padding: 30px;
+    
+}
+
+/*footer starts here*/
+.footer{
+    display: block;
+    margin-top: 10%;
+    text-align: center;
+}
