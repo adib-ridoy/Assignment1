@@ -14,13 +14,14 @@
     <nav class="navbar">
         <div class="navdiv">
             <div class="logo "> 
-                <a href="./profile.html"><img class="img-logo" src="./Ridoy.png" title="My Profile Picture" alt="Profile Picture"/>My Profile</a>
+                <a href="./index.html"><img class="img-logo" src="./Ridoy.png" title="My Profile Picture" alt="Profile Picture"/>Home</a>
             </div>
             <ul>
-                <li><a href="./index.html">Home</a></li>
+                <li><a href="./profile.html">My Profile</a></li>
                 <li><a href="#about_me">About me</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#projects"> Projects</a></li>
             </ul>
         </div>
     </nav>
@@ -69,7 +70,7 @@
                 </tr>
                 <tr>
                     <td>HSC</td>
-                    <td>Govt. Shah Sultan College, Bogura </td>
+                    <td>Govt. Shah Sultan college, Bogura </td>
                     <td>2020</td>
                 </tr>
                 <tr>
@@ -98,7 +99,7 @@
                     eu nulla consectetur enim dictum interdum sed ut augue.
                 </p>
                 
-                <li style="font-size: large;">Traveling is also my favorite.</li>
+                <li style="font-size: large;">Traveling is also my fevorite.</li>
                 <img class="travelling_duck" src="https://i.giphy.com/w1eatlCL6TSFnt7jjU.webp" alt="duck travelling on plane gif">
                 <p>
                     Pellentesque placerat ante a nulla feugiat, id posuere enim consequat. 
@@ -111,8 +112,22 @@
                     Donec eu nulla consectetur enim dictum interdum sed ut augue.
                 </p>
             </ul>
-            <h3><a style="color: #016B61;" href="./book-list.html">Here is a list of 5 books</a></h3>
+            
+            <a style="color: #016B61;" href="./book-list.html" >
+                <button class="my-button" style="font-size: 1.5rem">Here is a list of 5 books</button>
+            </a>
+           
 
+        </div>
+    </section>
+    <section id="projects">
+        <div class="box">
+            <h3>Projects List</h1>
+            <ul>
+                <li><a style="color: black; text-decoration: underline;" href="https://adib-ridoy.github.io/Fotune-Generator/">Fortune Generator</a></li>
+                <li><a style="color: black; text-decoration: underline;" href="https://adib-ridoy.github.io/customized-stop-watch/">Customized Stop Watch</a></li>
+            </ul>
+            
         </div>
     </section>
 
@@ -122,7 +137,9 @@
             <img class="laugh" src="https://media1.popsugar-assets.com/files/thumbor/tICD3R5HorYQiVioNrqPorGy0VM=/fit-in/499x242/top/filters:format_auto():upscale()/2014/11/03/896/n/1922283/477f1ca893489582_tumblr_mar6h9t0Q21ra8x1ao7_500-1414588008.gif" alt="laughing gif">
         </div>
         
-        <button class="my-button"><a href="./night mode/index-night.html">Night Mode</a></button>
+        <a href="./night mode/index-night.html">
+            <button class="my-button">Night Mode</button>
+        </a>
     </div>
 
 
@@ -136,18 +153,12 @@
         </p>
         <p>&copy;2025, MD. ADIB ASRAR RIDOY. All rights reserved.</p>
         <p>Last Modified: <span id="ModifiedTime"></span></p>
-        <p>WebPage Location: <span id="pageLocation"></span></p>
 
 
         <script>
             document.getElementById("ModifiedTime").textContent = document.lastModified;
-            document.getElementById("pageLocation").textContent = window.location.href;
         </script>
     </footer>
     
 </body>
-
 </html>
-
-
-
